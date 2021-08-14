@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ActiveStateToggler">
+    <Position X="3.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ActiveStateToggler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationManager">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\ApplicationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttachPlayer">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AttachPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeColor" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAACCA=</HashCode>
+      <FileName>Assets\Scripts\ChangeColor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="destroyplayer">
+    <Position X="16.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAJAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\destroyplayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="disappear">
+    <Position X="13.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\disappear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="displaytext">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAEAAAAAEIAAAAAAAAAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\displaytext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DragMe" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAAAAgAAAAABAEAAgAAAAACAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DragMe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DragPanel" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAMAAAAAABAAAAAAAAAAAIAAAAAAAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\DragPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DropMe" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAAAAAAAAAAAAQAAAAAgAAEAAAAQAQAACAA=</HashCode>
+      <FileName>Assets\Scripts\DropMe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FullScreenToggle">
+    <Position X="10.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FullScreenToggle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadingScreenManager">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAgwACGAAAgAgAAACAgAIAAACAABAAAAgBQBghA=</HashCode>
+      <FileName>Assets\Scripts\LoadingScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadSceneOnclick">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LoadSceneOnclick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="move">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PanelManager">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AogAAAAIAAAAQAIAAAIAAAAAAAAAAABAAKQAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\PanelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu">
+    <Position X="7.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgAAAAIAAAAAAAAAAAAAAAAAAAgAAgAAABAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResizePanel" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgAAIAAAAAABAAAAAAAACAAAAAAACAAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\ResizePanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="scenechange">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\scenechange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreMenuscrpit">
+    <Position X="14.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreMenuscrpit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollDetailTexture">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAAAQKAAAAAAAAAAAAgIAAAAAAAIiAA=</HashCode>
+      <FileName>Assets\Scripts\ScrollDetailTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetVol">
+    <Position X="4.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SetVol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowScore">
+    <Position X="6.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ShowScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowSliderValue">
+    <Position X="9.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ShowSliderValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiltWindow">
+    <Position X="12.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIADAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\TiltWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
