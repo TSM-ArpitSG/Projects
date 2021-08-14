@@ -1,0 +1,47 @@
+<html>
+<head>
+		<title>Harry Potter - Image Gallery</title>                 
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="harryimg.css">
+</head>
+<body>
+ <br><br>
+   <section class="showcase">
+    <header>
+        <a href="../homepage/Homepage.html"> <h2 class="logo">Harry Potter - WiKi</h2></a>
+       </header>
+  </section>
+		<div class="slide hi-slide">
+		  <div class="hi-prev "></div>
+			<div class="hi-next "></div>
+			<ul>
+				<li>
+				<img class="glow" src="https://i.insider.com/5f74ad0c0ab50d00184ad4c2?width=700" alt="Img 1" /></li>
+				<li><img class="glow" src="https://i.pinimg.com/736x/59/80/86/598086b4fee542a24e5ddab38781f22e.jpg" alt="Img 2" /></li>
+				<li><img class="glow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BLMC94VtjsGnXmSY_qUWS4tehwOJQnEj2w&usqp=CAU" alt="Img 3" /></li>
+				<li><img class="glow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-E72p2nL_fHqFUrTgbNs7uof7RAdMgKMuMA&usqp=CAU" alt="Img 4" /></li>
+				<li><img class="glow" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/07/24/17/Albus-Dumbledore.jpg?width=1200" alt="Img 5" /></li>
+				<li><img class="glow" src="https://api.time.com/wp-content/uploads/2016/04/harry-potter-and-the-order-of-the-phoenix.jpg" alt="Img 6" /></li>
+				<li><img class="glow" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/02/Harry-Potter-movies-changed-Dumbledore-death.jpg" alt="Img 7" /></li>
+                
+    
+            </ul>
+            <a href="Dumbledore.html">Back To Dumbledore</a>
+		</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hislide.js" ></script>
+		<script>
+			$('.slide').hiSlide();
+		</script>
+    <script>
+            const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+       </script>
+	</body>
+    
+</html>

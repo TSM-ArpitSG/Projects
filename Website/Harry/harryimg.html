@@ -1,0 +1,48 @@
+<html>
+<head>
+		<title>Harry Potter - Image Gallery</title>                 
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="harryimg.css">
+</head>
+<body>
+ <br><br>
+   <section class="showcase">
+    <header>
+        <a href="../homepage/Homepage.html"> <h2 class="logo">Harry Potter - WiKi</h2></a>
+       </header>
+  </section>
+		<div class="slide hi-slide">
+		  <div class="hi-prev "></div>
+			<div class="hi-next "></div>
+			<ul>
+				<li>
+				<img class="glow" src="https://i.pinimg.com/originals/2a/48/d1/2a48d14eea1a9a5ebd1970437c86e1f6.jpg" alt="Img 1" /></li>
+				<li><img class="glow" src="https://i.pinimg.com/originals/13/57/b1/1357b10985fba8328a1cfb9d322d5669.jpg" alt="Img 2" /></li>
+				<li><img class="glow" src="https://wallpapermemory.com/uploads/674/harry-potter-and-the-order-of-the-phoenix-wallpaper-hd-1080p-139729.jpg" alt="Img 3" /></li>
+				<li><img class="glow" src="https://wallpapermemory.com/uploads/507/hermione-granger-background-full-hd-463384.jpg" alt="Img 4" /></li>
+				<li><img class="glow" src="https://i.pinimg.com/originals/3b/26/4e/3b264e57755b801068a6dd5f596ddde4.jpg" alt="Img 5" /></li>
+				<li><img class="glow" src="https://cutewallpaper.org/21/harry-potter-images-hd/Harry-Potter-wallpapers-1920x1080-Full-HD-1080p-desktop-.jpg" alt="Img 6" /></li>
+				<li><img class="glow" src="https://wallpapercave.com/wp/wp2763337.jpg" alt="Img 7" /></li>
+                <li><img class="glow" src="https://www.kolpaper.com/wp-content/uploads/2020/12/HD-Harry-Potter-Wallpapers.jpg" alt="Img 8" /></li>
+            <li class="glow"><img class="glow" src="https://images6.alphacoders.com/950/thumb-1920-950453.jpg" alt="Img 8" /></li>
+    
+            </ul>
+            <a href="harry.html">Back To Harry</a>
+		</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hislide.js" ></script>
+		<script>
+			$('.slide').hiSlide();
+		</script>
+    <script>
+            const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+       </script>
+	</body>
+    
+</html>

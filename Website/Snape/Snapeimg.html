@@ -1,0 +1,46 @@
+<html>
+<head>
+		<title>Harry Potter - Image Gallery</title>                 
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="harryimg.css">
+</head>
+<body>
+ <br><br>
+   <section class="showcase">
+    <header>
+        <a href="../homepage/Homepage.html"> <h2 class="logo">Harry Potter - WiKi</h2></a>
+       </header>
+  </section>
+		<div class="slide hi-slide">
+		  <div class="hi-prev "></div>
+			<div class="hi-next "></div>
+			<ul>
+				<li>
+				<img class="glow" src="https://i.insider.com/5f4811d2cd2fec00296a4a6b?width=960&format=jpeg" alt="Img 1" /></li>
+				<li><img class="glow" src="https://s01.sgp1.digitaloceanspaces.com/large/827899-article-jrwbcbpxbp-1452777758.jpeg" alt="Img 2" /></li>
+				<li><img class="glow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdkUUc7U5G-swJLGLp47EX2vsWqGYRLsxDmw&usqp=CAU" alt="Img 3" /></li>
+				<li><img class="glow" src="https://img.cinemablend.com/filter:scale/quill/9/d/b/5/4/9/9db54910ad81fdffab78120da59ed3edf3133b12.jpg?mw=600" alt="Img 4" /></li>
+				<li><img class="glow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyCnZMKg2zLPTv5IYW9CX-xofFvff_ZCYH0A&usqp=CAU" alt="Img 5" /></li>
+				<li><img class="glow" src="https://i0.wp.com/www.tor.com/wp-content/uploads/2014/12/snape4.jpg?fit=475%2C%209999&crop=0%2C0%2C100%2C316px" alt="Img 6" /></li>
+				<li><img class="glow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DtUw50V6AxNzR1IzrnJqLLNm60F38DjTytCGBFETuH9Br4wufUJToO4aTVLRY9UQ49Q&usqp=CAU" alt="Img 7" /></li>
+                    
+            </ul>
+            <a href="Snape.html">Back To Severus Snape</a>
+		</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hislide.js" ></script>
+		<script>
+			$('.slide').hiSlide();
+		</script>
+    <script>
+            const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+       </script>
+	</body>
+    
+</html>

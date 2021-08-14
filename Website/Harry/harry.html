@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Harry Potter</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="harry.css">
+</head>
+   <body>
+  <section class="showcase">
+    <header>
+        <a href="../homepage/Homepage.html"> <h2 class="logo">Harry Potter - WiKi</h2></a>
+      <div class="toggle"></div>
+    </header>
+    <video src="Harry%20Clips.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Harry Potter </h2> 
+      <p>Harry James Potter (b. 31 July 1980) was an English half-blood wizard, and one of the most famous wizards of modern times. He was the only child and son of James and Lily Potter, both members of the original Order of the Phoenix. Harry's birth was overshadowed by a prophecy, naming either himself or Neville Longbottom as the one with the power to vanquish Lord Voldemort. After half of the prophecy was reported to Voldemort, courtesy of Severus Snape, Harry was chosen as the target due to his many similarities with the Dark Lord. In turn, this caused the Potter family to go into hiding. Voldemort made his first vain attempt to circumvent the prophecy when Harry was a year and three months old. During this attempt, he murdered Harry's parents as they tried to protect him, but this unsuccessful attempt to kill Harry led to Voldemort's first downfall. This downfall marked the end of the First Wizarding War, and to Harry henceforth being known as the "Boy Who Lived", as he was the only known survivor of the Killing Curse.</p>
+      <a href="harryimg.html">Explore Image Gallery</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/harrypottermovie/" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank"><img src="wikipidea.png" width="41"height="41"></a></li>
+      <li><a href="https://www.instagram.com/harrypotterfilm/?hl=en" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="../homepage/Homepage.html">Home</a></li>
+      <li><a href="../Hermione/Hermione.html">Hermione Granger</a></li>
+      <li><a href="../Ron/ron.html">Ron Weasley</a></li>
+      <li><a href="../Dumbledore/Dumbledore.html">Dumbledore</a></li>
+      <li><a href="../Snape/Snape.html">Professor Snape</a></li>
+    </ul>
+  </div>
+       <script>
+            const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+       </script>
+    </body>
+</html>

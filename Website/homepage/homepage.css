@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(bgweb.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 170px;
+    cursor: pointer;
+    background: transparent;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    text-align: center;
+    width: auto;
+    position: absolute;
+    top:60%;
+    transform: translateY(-50%);
+    color: #fff;
+    align-content: center;
+}
+.title{
+    font-size:70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+button{
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid #ffc107;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #ffc107 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+button:hover{
+    background-position: right;
+    color: #000;
+}
+.slider{
+    color: #ffc107;
+    margin-left:12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+@keyframes slider{
+    0%{ margin-top:-200px;}
+    30%{ margin-top:-200px;}
+    35%{ margin-top:0px;}
+    65%{ margin-top:0px;}
+    75%{ margin-top:200px;}
+    100%{ margin-top:200px;}
+}
+.hero{ 
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(bgweb.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 90vh;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top:80px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+}
+.hero p{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col
+{
+    flex-basis: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    min-width: 230px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #1e2648;
+    padding:12px;
+}
+.profile img{
+    width:100%;
+}
+.profile h2{
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+.profile span{
+    margin bottom: 10px;
+    color: #ff7878
+}
+.col::before,.col::after
+{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(135deg,#ff001d,#ddfa00);
+    position: absolute;
+    z-index: -1;
+    animation: none;
+}
+.col::before{
+    left: 0;
+    top: -8px;
+}
+.col::after{
+    right:0;
+    bottom: -8px;
+}
+@keyframes stroke{
+    0%{
+        height: 8px;
+        width: 0px;
+    }
+    50%{
+        height: 8px;
+        width: calc(100% + 8px);
+    }
+    100%{
+        height: calc(100% + 16px);
+        width:  calc(100% + 8px);
+    }
+    
+}
+.col:hover::before,.col:hover::after{
+    animation: stroke 1s linear;
+    animation-fill-mode: forwards;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    border:7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,5);   
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#30ff00);
+    background: #f00;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#00c6ff);
+}
